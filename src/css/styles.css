@@ -1,4 +1,6 @@
-* {
+@import url("simplelightbox/dist/simple-lightbox.min.css");* 
+
+{
   margin: 0;
   padding: 0;
   list-style: none;
@@ -37,8 +39,8 @@ img {
 .gallery {
   display: flex;
   flex-wrap: wrap;
-  gap: 24px;
-  padding: 40px 24px;
+  gap: 4px;
+  padding: 20px 24px;
 }
 
 .gallery-item {
