@@ -1,20 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Gallery Demo</title>
-  <link rel="stylesheet" href="./css/styles.css" />
-</head>
-<body>
-  <header></header>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vanilla App Template</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <load src="./partials/header.html" icon-path="img/sprite.svg#logo" />
 
-  <main>
-    <!-- Тут буде відображатися галерея -->
-    <ul class="gallery"></ul>
-  </main>
+    <main>
+      <nav>
+        <ul>
+          <li><a href="./1-gallery.html">1 gallery</a></li>
+          <li><a href="./2-form.html">2 feedback Form</a></li>
+        </ul>
+      </nav>
+      <section id="dynamic-content"></section>
+    </main>
 
-  <!-- Підключаємо ваш скрипт -->
-  <script type="module" src="./js/1-gallery.js"></script>
-</body>
+    <load src="./partials/footer.html" />
+
+    <script type="module" src="./main.js"></script>
+  </body>
 </html>
